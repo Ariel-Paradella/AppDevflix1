@@ -3,6 +3,8 @@ import {StatusBar} from 'react-native';
 import styled from 'styled-components/native';
 import * as ScreenOrientation from 'expo-screen-orientation';
 
+import Videosjs from '../../Database/cursojs.json';
+import Videosph from '../../Database/cursoph.json';
 import VideosList from '../../Database/videos.json';
 import Header from "../../components/Header";
 import Videos from "../../components/Videos";
@@ -37,8 +39,8 @@ export default function Home(){
                     tags={["React Native", "Expo"]}
                     content={<Header />}
                 ></Poster>
-                <Videos label="Recomendados" videos={VideosList}> </Videos>
-                <Videos label="Lançamentos" videos={VideosList}> </Videos>
+                <Videos label="Curso de javascript" videos={Videosjs}> </Videos>
+                <Videos label="Curso de python" videos={Videosph}> </Videos>
                 <Videos label="Mais vistos" videos={VideosList}> </Videos>
             </Container>
         </>
