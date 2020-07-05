@@ -25,7 +25,7 @@ export default function Header(){
     const navigation = useNavigation();
     return(
         <Container>
-            <Logo resizeMode="contain" source={require("../assets/short-logo.png")}/>
+            <Logo resizeMode="contain" source={require("../assets/short-logo.png")}></Logo>
             <Menu onPress={() => {
                 navigation.navigate("Playlist");
                 }}

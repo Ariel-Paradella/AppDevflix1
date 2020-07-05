@@ -58,7 +58,7 @@ Foi utilizado o React Native para desenvolver a estrutura do app, e através da 
 
 
 <p align="center">
-    Feito com :heart: por <a href="https://github.com/rafaelevissa">Rafael Levi</a>
+    Feito com :heart: por <a href="https://github.com/Ariel-Paradella">Ariel Paradella</a>
 </p>
 
 <!-- Markdown link & img dfn's -->

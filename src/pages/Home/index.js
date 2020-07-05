@@ -10,11 +10,13 @@ import Poster from "../../components/Poster";
 
 const Container = styled.ScrollView`
     flex: 1;
-    backgroud-color: #333333;
+    background-color: #333333;
 `;
 
 async function changeScreenOrientation(){
-    await ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.PORTRAIT);
+    await ScreenOrientation.lockAsync(
+        ScreenOrientation.OrientationLock.PORTRAIT
+    );
 }
 
 export default function Home(){
@@ -42,3 +44,4 @@ export default function Home(){
         </>
     );
 }
+
